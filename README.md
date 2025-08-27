@@ -1,16 +1,14 @@
 # Knowledge Distillation
 
-This project demonstrates building and deploying an end-to-end machine
-learning application by training and optimizing a deep learning model,
-and integrating it with a scalable web interface. The project
-specifically focuses on **model compression using knowledge
-distillation**, where a smaller "student" model learns from a larger
-"teacher" model.
+This project implements Knowledge Distillation (KD) to train a lightweight student model from a teacher ResNet18 model, achieving efficient inference with minimal accuracy loss. The student model is deployed via FastAPI and Docker for real-time requests, demonstrating a production-ready, modular ML pipeline
 
-The application includes: - Training deep learning models with
-PyTorch. - Knowledge Distillation for model compression. - API
-development for inference. - Full-stack deployment for real-time
-accessibility.
+## Features
+- Teacher-student training using **Knowledge Distillation** on CIFAR-10  
+- Student model achieves **86% accuracy** compared to **91% teacher accuracy** with only **5% loss**  
+- **53× smaller model** for faster inference  
+- **FastAPI** server for real-time JSON requests  
+- **Modular design** and **Docker-based containerization** for easy deployment
+
 
 ## Dataset
 
