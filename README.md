@@ -1,4 +1,4 @@
-# Knowledge Distillation
+# Knowledge Distillation for Lightweight Model Deployment via API
 
 This project implements Knowledge Distillation (KD) to train a lightweight student model from a teacher ResNet18 model, achieving efficient inference with minimal accuracy loss. The student model is deployed via FastAPI and Docker for real-time requests, demonstrating a production-ready, modular ML pipeline
 
