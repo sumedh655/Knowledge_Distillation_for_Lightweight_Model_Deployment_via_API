@@ -25,7 +25,7 @@ vision research.
 You can find the dataset here: [CIFAR-10
 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-## 📊 Results
+##  Results
 
 | Model              | Accuracy | Size Reduction |
 |--------------------|----------|----------------|
