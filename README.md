@@ -24,3 +24,10 @@ vision research.
 
 You can find the dataset here: [CIFAR-10
 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+## 📊 Results
+
+| Model              | Accuracy | Size Reduction |
+|--------------------|----------|----------------|
+| Teacher (ResNet18) | 91%      | –              |
+| Student (KD)       | 86%      | 53× smaller    |
